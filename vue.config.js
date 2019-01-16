@@ -1,6 +1,9 @@
 // vue.config.js
 module.exports = {
     // 选项...
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-todolist/'
+    : '/',
     lintOnSave: true, // 是否使用eslint
     devServer: {
         port: 8080,
