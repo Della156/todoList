@@ -39,7 +39,7 @@
       height: 40px;
     }
     .el-button:last-of-type {
-      margin-left: 220px;
+      margin-left: 180px;
     }
   }
 </style>
