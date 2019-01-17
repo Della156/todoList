@@ -1,7 +1,7 @@
 // vue.config.js
 module.exports = {
   // 选项...
-  publicPath: '/',
+  publicPath: './',
   lintOnSave: true, // 是否使用eslint
   devServer: {
     open: true, // 自动启动浏览器
