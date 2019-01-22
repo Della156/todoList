@@ -27,7 +27,6 @@ export default {
   #app {
     height: 500px;
     width: 700px;
-    /*background: #88615b82;*/
     margin: 100px auto;
     .typing {
       font-size: 40px;
