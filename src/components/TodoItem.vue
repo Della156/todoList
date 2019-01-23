@@ -9,7 +9,7 @@
 
 <script>
   export default {
-    props: ['todo', 'index'],
+    props: ['todo'],
   }
 </script>
 

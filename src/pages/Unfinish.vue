@@ -1,6 +1,6 @@
 <template>
   <ul class="todoList">
-    <TodoItem v-for="(todo,index) in unfinish" :key="index" :todo="todo" :index="index"/>
+    <TodoItem v-for="(todo,index) in unfinish" :key="index" :todo="todo"/>
   </ul>
 </template>
 
